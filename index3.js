@@ -23,4 +23,12 @@ let seatAllotMent; // we can only assign seatAllotment with the aisle, middle, a
 seatAllotMent = "aisle";
 seatAllotMent = "middle";
 seatAllotMent = "window";
-// other than nothing is allowed
+function myName(person) {
+    return `Hello ${person.name} your age is ${person.age}`;
+}
+const name5 = {
+    name: "John",
+    age: 20
+};
+const r = myName(name5);
+console.log(r);

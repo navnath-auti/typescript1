@@ -46,4 +46,22 @@ seatAllotMent = "middle"
 seatAllotMent = "window"
 // other than nothing is allowed
 
+interface Person {
+    name: string,
+    age: number
+}
 
+
+
+function myName(person: Person){
+    return `Hello ${person.name} your age is ${person.age}` 
+}
+
+
+const name5 = {
+    name: "John",
+    age: 20
+}
+
+const r = myName(name5)
+console.log(r)
